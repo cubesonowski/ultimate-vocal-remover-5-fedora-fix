@@ -31,7 +31,7 @@ execstack -c ./venv/lib64/python3.10/site-packages/onnxruntime/capi/onnxruntime_
 ```
 
 ## 4. In UVR.py do the following things
-1. Uncomment 48, 1536, 1537, 1541, 1542 lines
+Uncomment 48, 1536, 1537, 1541, 1542 lines
 ```python
 from playsound import playsound
 if chosen_font_file:
@@ -39,7 +39,7 @@ if chosen_font_file:
 pfont.add_file(FONT_MAPPER[MAIN_FONT_NAME])
 pfont.add_file(FONT_MAPPER[SEC_FONT_NAME])
 ```
-2. In 1313 line in `img.open_image()` in `size=()` change first argument for any number e.g. 800
+In 1313 line in `img.open_image()` in `size=()` change first argument for any number e.g. 800
 
 ## 5. Script to run the program
 ```bash
